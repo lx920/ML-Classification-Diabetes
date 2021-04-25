@@ -1,6 +1,6 @@
 # ML-Classification-Diabetes
 Use popular ML Classification models on diabetes data set. Compare precision, recall, ROC AUC and confusion matrices\
-\
+
 - Logistic Regression
 - Support Vector Machine
 - Random Forest
@@ -21,7 +21,9 @@ SVM with default hyperparameters gives worse classification than Logistic regres
 Applied GridSearch CV to find best Hyperparameters\
 C: 100, gamma: Scale, Kernel: Linear\
 Tuned Model have: \
-Accuracy 0.82, Precision 0.71 Recall 0.68
+Accuracy 0.82, Precision 0.71 Recall 0.68\
+\
+High compupational cost of SVM prevents me from exploring more in poly and rbf kernels.
 
 # Random Forest
 Averaging Classification over 10000 Decision Trees\
